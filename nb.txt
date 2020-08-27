@@ -1,10 +1,5 @@
 1.谢谢大家我的第一次设置
-<<<<<<< HEAD
 2.hhhhhhhhhhhhhhhhh
 3.是打发第三方案发时1
-=======
-2.我的名字叫马帅涛
-3fasfasfasfg
-4。nbnbnb
-5.hhhhhhh
->>>>>>> fenzhi1
+
+
