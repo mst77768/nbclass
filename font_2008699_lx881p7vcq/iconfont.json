@@ -1,0 +1,16 @@
+{
+  "id": "2008699",
+  "name": "add",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9437241",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

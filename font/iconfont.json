@@ -1,0 +1,37 @@
+{
+  "id": "2002218",
+  "name": "大商创",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "372089",
+      "name": "icon-left",
+      "font_class": "left",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "14454511",
+      "name": "icon_right",
+      "font_class": "right",
+      "unicode": "e7a0",
+      "unicode_decimal": 59296
+    },
+    {
+      "icon_id": "9333208",
+      "name": "Alternate Map Marker.1",
+      "font_class": "AlternateMapMarker",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "538867",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    }
+  ]
+}

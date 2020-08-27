@@ -1,0 +1,58 @@
+{
+  "id": "2002935",
+  "name": "font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2170914",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16652867",
+      "name": "地址",
+      "font_class": "dizhi-copy",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "4247120",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "608346",
+      "name": "箭头",
+      "font_class": "jiantouarrow499",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "609205",
+      "name": "箭头",
+      "font_class": "jiantouarrow505",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "688254",
+      "name": "家用电器",
+      "font_class": "jiayongdianqi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1331517",
+      "name": "alarm,闹钟,时钟,倒计时,时间",
+      "font_class": "alarm",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

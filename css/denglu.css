@@ -1,0 +1,353 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .box {
+        width: 100%;
+    }
+    
+    .head {
+        width: 100%;
+        height: 130px;
+        background-color: #fff;
+    }
+    
+    .head1 {
+        width: 1200px;
+        height: 130px;
+        margin: 0 auto;
+        background-color: #fff;
+        overflow: hidden;
+    }
+    
+    .head1 .img1 {
+        width: 159px;
+        height: 57px;
+        margin-top: 42px;
+        float: left;
+        cursor: pointer;
+    }
+    
+    .head1 .img2 {
+        width: 258px;
+        height: 70px;
+        float: left;
+        margin-top: 30px;
+    }
+    
+    .head2 {
+        width: 154px;
+        height: 130px;
+        text-align: center;
+        line-height: 130px;
+        float: right;
+    }
+    
+    .head2 span {
+        font-size: 14px;
+        color: #8c8c8c;
+    }
+    
+    .head2 a {
+        text-decoration: none;
+        color: #f42424;
+    }
+    
+    .head2 a:hover {
+        text-decoration: underline;
+    }
+    
+    .main {
+        width: 100%;
+        height: 530px;
+        position: relative;
+    }
+    
+    .img3 {
+        width: 100%;
+        height: 530px;
+        overflow: hidden;
+    }
+    
+    .img3 img {
+        margin-left: -182px;
+    }
+    
+    .foot {
+        width: 100%;
+        height: 105px;
+    }
+    
+    .foot1 {
+        width: 1200px;
+        height: 105px;
+        margin: 35px auto;
+    }
+    
+    .foot1 p a {
+        text-decoration: none;
+        color: rgba(85, 85, 85, .5);
+    }
+    
+    .foot1 p {
+        color: rgba(85, 85, 85, .5);
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    
+    .foot1 p a:hover {
+        color: #f42424;
+    }
+    
+    .form {
+        width: 350px;
+        height: 420px;
+        background-color: #fff;
+        position: absolute;
+        right: 140px;
+        top: 50px;
+    }
+    
+    .coagent {
+        width: 350px;
+        height: 96px;
+        padding: 20px 40px 0;
+    }
+    
+    .tit {
+        width: 270px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .tit h2 {
+        font-size: 16px;
+        color: #8c8c8c;
+        padding: 0 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+        font-weight: normal;
+    }
+    
+    .tit span {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 9px;
+        height: 1px;
+        border-bottom: 1px dashed #e5e5e5;
+    }
+    
+    .coagent-warp {
+        width: 270px;
+        height: 36px;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .coagent-warp b {
+        display: block;
+        width: 36px;
+        height: 36px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -18px;
+        background: url(../image/102.png) 0px 0px;
+        cursor: pointer;
+    }
+    
+    .coagent-warp b:hover {
+        background: url(../image/102.png) 36px 0px;
+    }
+    
+    .login-switch {
+        width: 52px;
+        height: 52px;
+        background-color: #fff;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
+    
+    .login-switch .iconfont {
+        width: 52px;
+        height: 56px;
+        color: #f42424;
+        display: block;
+        font-size: 56px;
+        cursor: pointer;
+    }
+    
+    .login-switch i:nth-child(2) {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+    }
+    
+    .triangle {
+        width: 0;
+        height: 0;
+        border-bottom: 52px solid #ffffff;
+        border-right: 52px solid transparent;
+        top: 0px;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .login-box {
+        width: 350px;
+        height: 325px;
+        padding: 0px 40px 0px;
+    }
+    
+    .msg-wrap {
+        width: 270px;
+        height: 25px;
+    }
+    
+    .tit h3 {
+        font-size: 16px;
+        color: #8c8c8c;
+        padding: 0 15px;
+        display: inline-block;
+        position: relative;
+        z-index: 2;
+        background-color: #fff;
+        font-weight: normal;
+    }
+    
+    .form1 {
+        width: 270px;
+        height: 228px;
+    }
+    
+    .form1 .item-info {
+        position: relative;
+        width: 268px;
+        height: 38px;
+        line-height: 38px;
+        border: 1px solid #d2d2d2;
+        margin-top: 8px;
+    }
+    
+    .form1 .iconfont {
+        position: absolute;
+        color: #e8e8e8;
+        left: 10px;
+        top: 11px;
+        font-size: 18px;
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+    }
+    
+    .form1 .text {
+        border: 0;
+        width: 223px;
+        padding: 7px 10px 2px 35px;
+        height: 28px;
+        outline-color: #000;
+        font-size: 12px;
+    }
+    
+    .form1 .text-2 {
+        border: 0;
+        width: 222px;
+        padding: 7px 10px 2px 35px;
+        height: 28px;
+        outline-color: #000;
+        font-size: 12px;
+    }
+    
+    .item-info img {
+        width: 112px;
+        height: 37px;
+        position: absolute;
+        right: 2px;
+        top: 1px;
+        cursor: pointer;
+    }
+    
+    .item-button {
+        width: 270px;
+        height: 40px;
+        padding: 20px 10px 2px 0px;
+        cursor: pointer;
+    }
+    
+    .item-button .btn {
+        width: 270px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: bold;
+        outline: none;
+        border: 0;
+        border-radius: 3px;
+        background: #f42424;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .wang {
+        width: 270px;
+        height: 20px;
+        padding: 12px 10px 2px 0px;
+    }
+    
+    .wang span {
+        color: #8c8c8c;
+        font-size: 12px;
+    }
+    
+    .wang span:hover {
+        color: #f42424;
+    }
+    
+    .static-form1 {
+        width: 430px;
+        height: 325px;
+        position: absolute;
+        top: 116px;
+        left: 42px;
+        display: none;
+    }
+    
+    .img4 img {
+        width: 198px;
+        height: 198px;
+        position: absolute;
+        top: 42px;
+        left: 42px;
+    }
+    
+    .zi {
+        width: 270px;
+        height: 25px;
+        position: absolute;
+        top: 255px;
+        left: 65px;
+    }
+    
+    .zi span {
+        text-align: center;
+        font-size: 12px;
+        color: #555;
+    }
+    
+    .zi a {
+        color: #f42424;
+        text-decoration: none;
+    }
+    
+    .btn:hover {
+        opacity: .8;
+    }

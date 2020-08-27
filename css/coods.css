@@ -1,0 +1,1126 @@
+.coods_top_main {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.coods_top_main_top {
+    width: 100%;
+    height: 40px;
+    background-color: #F8F8F8;
+    margin-top: -10px;
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.top .top_love p {
+    width: 75px;
+    height: 116%;
+    margin-top: -4px;
+    position: relative;
+    z-index: 1000;
+    float: left;
+}
+
+.top .top_love p #weizhi {
+    margin: 0;
+    display: block;
+    float: right;
+    margin: 3px 5px 0px 0px;
+}
+
+.box .top .top_love img {
+    vertical-align: bottom;
+}
+
+.coods_top_main_top_u1 {
+    width: 60%;
+    padding-top: 7px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.coods_top_main_top_u1 div {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.coods_top_main_top #jiu1 {
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    height: 90px;
+    display: none;
+    font-size: 13px;
+    color: #555555;
+    background-color: white;
+    overflow: hidden;
+}
+
+#jiu1 ul {
+    width: 100%;
+    padding-left: 4px;
+    height: 100%;
+    padding-top: 15px;
+}
+
+#jiu1 ul li {
+    float: left;
+    width: 33%;
+    height: 28px;
+    text-align: center;
+    line-height: 30%;
+    font-size: 12px;
+}
+
+.jiu2 {
+    position: absolute;
+    left: 172px;
+    top: 34px;
+    width: 250px;
+    height: 160px;
+    background-color: white;
+    overflow: hidden;
+    font-size: 13px;
+    color: #555555;
+    display: none;
+    z-index: 2;
+}
+
+.jiu2 ul {
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.jiu2 ul li {
+    width: 33%;
+    height: 25px;
+    text-align: center;
+    float: left;
+}
+
+.coods_top_main_top_u1 span {
+    padding: 3px 7px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 553;
+    background-color: white;
+}
+
+.udb {
+    border: 1px solid red !important;
+}
+
+.butnhh {
+    border-top: 1px solid red !important;
+    border-left: 1px solid red !important;
+    border-right: 1px solid red !important;
+    border-bottom: 8px solid #F8F8F8 !important;
+}
+
+.coods_top_main_top_u1 b {
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.coods_top_main_main {
+    width: 84%;
+    height: 500px;
+    float: left;
+}
+
+.abb {
+    z-index: 888;
+}
+
+.coods_top_main_main_left {
+    width: 40%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.mst_img {
+    width: 100%;
+    height: 80%;
+    border: 1px solid #ccc;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.mst_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mst_img_botm {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #ccc;
+}
+
+.mst_img_botm div {
+    width: 43px;
+    height: 100%;
+    background: white;
+    font-size: 19px;
+    text-align: center;
+    line-height: 80px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.mst_img_botm li :hover {
+    border: 1px solid red;
+}
+
+.imgbox {
+    width: 400px;
+    height: 470px;
+    position: absolute;
+    border: 1px solid #ccc;
+    right: -410px;
+    overflow: hidden;
+    margin-left: 50px;
+    display: none;
+    z-index: 999;
+}
+
+.imgbox img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.msk {
+    width: 130px;
+    height: 160px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(99, 99, 99, 0.3);
+    display: none;
+}
+
+.mst_img_botm .uls {
+    width: 72%;
+    height: 100%;
+    margin-right: 0;
+    float: left;
+    overflow: hidden;
+}
+
+.ulsbox {
+    overflow: hidden;
+    width: 180%;
+    height: 80%;
+    position: relative;
+}
+
+
+/* .mst_img_botm .uls ul {
+    height: 200%;
+    width: 300%;
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+
+
+/* #nbhh {} */
+
+.mst_img_botm ul li {
+    height: 100%;
+    width: 80px;
+    border: 1px solid #ccc;
+    float: left;
+}
+
+.mst_img_botm ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.mst_left {
+    float: left;
+}
+
+.mst_right {
+    float: right;
+}
+
+.coods_top_main_main_right {
+    width: 660px;
+    height: 480px;
+    margin: 0px 5px 0px 15px;
+    float: left;
+}
+
+.coods_top_main_main_right h2 {
+    font-size: 20px;
+}
+
+.cood-con {
+    width: 100%;
+    height: 170px;
+    margin: 20px 0px;
+    padding-top: 10px;
+    background: url(https://x.dscmall.cn/themes/ecmoban_dsc2017/images/summary-bg.jpg)
+}
+
+.cood-top {
+    width: 100%;
+    height: 40px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.cood-con .cood-price {
+    color: #8c8c8c;
+    font-size: 12px;
+    margin: 0px 20px;
+    line-height: 40px;
+}
+
+.cood-con h3 {
+    color: #f42424;
+    font-size: 30px;
+}
+
+.cood-con .cood-low {
+    margin: 10px 150px 0px 10px;
+    padding-left: 10px;
+    width: 87px;
+    color: #ffffff;
+    height: 20px;
+    background: url(img/jlt01.png) no-repeat;
+    background-size: 509px 550px;
+    background-position: -376px -48px;
+}
+
+.cood-con .cood-more {
+    border-right: 1px solid #d2d2d2;
+    width: 95px;
+    margin-top: 10px;
+    height: 20px;
+    color: #555555;
+}
+
+.cood-top p span {
+    color: #b31919;
+    font-size: 20px;
+}
+
+.cood-con .cood-moresum {
+    width: 80x;
+    margin: 10px 0px 0px 10px;
+    height: 20px;
+    color: #555555;
+}
+
+.cood-con .cood-mid {
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    position: relative;
+}
+
+.cood-mid .iconfont {
+    width: 29px;
+    height: 29px;
+    margin: 0px 5px 0px 92px;
+    background: url(img/jlt01.png) no-repeat 0px -216px;
+}
+
+.cood-mid p {
+    line-height: 24px;
+    color: #555;
+}
+
+.cood-mid p span {
+    color: red;
+}
+
+.cood-mid p:nth-child(3) {
+    margin-left: 35px;
+}
+
+.cood-mid p.fr {
+    padding-right: 20px;
+}
+
+.cood-mid p.fr i {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: url(img/weixin_code_640.png) no-repeat;
+    background-size: 100%;
+}
+
+.code-box {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    display: none;
+}
+
+.code {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: url(img/weixin_code_640.png) no-repeat;
+    background-size: 100%;
+}
+
+.cood-bot {
+    width: 100%;
+    height: 25px;
+}
+
+.cood-bot p,
+.cood-last p {
+    font-size: 12px;
+    margin: 0px 20px;
+    color: #8c8c8c;
+}
+
+.cood-bot del {
+    color: #555555;
+}
+
+.cood-last {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cood-last span {
+    float: left;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 20px;
+    background-color: #ff6590;
+    position: relative;
+}
+
+.cood-last i {
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    background-color: #fff;
+}
+
+.cood-last .floatl {
+    left: -4px;
+}
+
+.cood-last .floatr {
+    right: -4px;
+}
+
+.cood-send,
+.cood-service,
+.cood-use,
+.cood-promise {
+    width: 100%;
+    height: 30px;
+}
+
+.cood-send p,
+.cood-service p,
+.cood-use p,
+.cood-promise {
+    font-size: 12px;
+    margin: 0px 20px;
+    color: #8c8c8c;
+}
+
+.send-con {
+    margin-left: 20px;
+    color: #555;
+    position: relative;
+}
+
+.send-box {
+    padding: 0 10px;
+    border: 1px solid #d2d2d2;
+    height: 30px;
+    width: 215px;
+    margin-left: 10px;
+    line-height: 27px;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+    background-color: #fff;
+}
+
+.send-box i {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.send-box i img {
+    width: 100%;
+    height: 100%;
+}
+
+.send-con p {
+    float: right;
+}
+
+.send-con .fr strong {
+    font-size: 20px;
+    color: #999;
+}
+
+.address-con {
+    position: absolute;
+    border: 1px solid #d2d2d2;
+    width: 470px;
+    padding: 10px 23px 15px 18px;
+    top: 28px;
+    left: 78px;
+    z-index: 10;
+    display: none;
+    background: #fff;
+}
+
+.add-nav-head {
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.add-nav-head li {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    border: 1px solid #d2d2d2;
+}
+
+.add-nav-head ul .a-active {
+    color: #f42424;
+    border-top: 2px solid #f42424;
+    border-bottom: 1px solid #fff;
+}
+
+.add-nav-con {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.add-bot {
+    display: none;
+}
+
+.add-nav-con .b-active {
+    display: block;
+}
+
+.add-nav-con .add-bot li {
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    float: left;
+}
+
+.add-nav-con .add-bot li:hover {
+    background-color: #f42424;
+    color: #fff;
+}
+
+.add-nav-con .add-bot li.on {
+    width: 100%;
+    margin: 10px 0px 10px 25px;
+    color: #f42424;
+    text-align-last: left;
+}
+
+.add-nav-con .add-bot li:hover.on {
+    background-color: #fff;
+    color: #f42424;
+}
+
+.ser-con {
+    margin: 3px 0px 0px 20px;
+    color: #555;
+    font-size: 12px;
+    width: 565px;
+}
+
+.ser-con>span {
+    color: #b31919;
+}
+
+.cood-use span {
+    display: block;
+    float: left;
+    margin-left: -5px;
+    font-size: 12px;
+    color: #555;
+}
+
+.pro-con {
+    margin-left: 72px;
+    color: #555;
+}
+
+.pro-con i {
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 2px;
+}
+
+.cood-sum {
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.cood-sum p {
+    font-size: 12px;
+    margin: 7px 20px 0px 20px;
+    color: #8c8c8c;
+}
+
+.sum-con {
+    margin-left: 92px;
+    position: relative;
+}
+
+.count {
+    border: 1px solid #d2d2d2;
+    width: 35px;
+    height: 36px;
+    float: left;
+    outline: 0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.sum-con .add,
+.sum-con .reduce {
+    width: 20px;
+    height: 18px;
+    border: 1px solid #d2d2d2;
+    position: absolute;
+    left: 34px;
+}
+
+.sum-con .add {
+    background: url(../img/top.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.sum-con .reduce {
+    top: 18px;
+    background: url(../img/下箭头.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.sum-con p {
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+.modal-box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 10000;
+    display: none;
+}
+
+.modal-box-con {
+    width: 440px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -225px;
+}
+
+.modal-title {
+    width: 420px;
+    height: 30px;
+    padding: 0px 30px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.modal-title h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.modal-title .del {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal-con {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    padding-left: 60px;
+    color: #f68a00;
+}
+
+.modal-con i {
+    font-size: 36px;
+    margin: 0px 5px;
+    vertical-align: middle;
+}
+
+.add-cart {
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.add-cart button {
+    color: #fff;
+    border: 0px;
+    outline: none;
+    text-align: center;
+}
+
+.now {
+    width: 120px;
+    height: 40px;
+    margin: 0px 20px 0px 100px;
+    background-color: #ff8f22;
+}
+
+.addCart {
+    width: 180px;
+    height: 40px;
+    background-color: #f42424;
+}
+
+.coods_top_main_right {
+    width: 16%;
+    height: 500px;
+    float: right;
+    /* background-color: red; */
+    padding: 0px 15px;
+}
+
+.coods_top_main_right h3 {
+    text-align: center;
+    font-size: 15px;
+    color: #555555;
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 6px;
+}
+
+.ulsbox {
+    margin-top: 9px;
+    width: 100%;
+    height: 98%;
+    position: relative;
+}
+
+.ulsbox ul {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ulsbox ul li {
+    width: 100%;
+    height: 50%;
+    float: left;
+    background-color: azure;
+    transition: all 1s;
+}
+
+
+/* .ulsbox ul li:hover {
+    transform: rotateX(360deg);
+} */
+
+.ulsbox ul li img {
+    width: 100%;
+    height: 79%;
+}
+
+.ulsbox ul li p {
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+}
+
+.ulsbox ul li h6 {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+    font-size: 13px;
+}
+
+
+/* 下面的列表 */
+
+.good {
+    width: 100%;
+    margin-top: 30px;
+    height: 600px;
+    position: relative;
+}
+
+
+/* 左边的列表栏 */
+
+.good-left {
+    width: 200px;
+    margin: 0px 10px 0px 20px;
+}
+
+.con1 {
+    border: 1px solid #d2d2d2;
+}
+
+.good-left p {
+    width: 100%;
+    height: 40px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555555;
+    border-bottom: 1px solid #d2d2d2;
+    background-color: #f8f8f8;
+}
+
+.good-left p i {
+    width: 27px;
+    height: 24px;
+    background: url(img/jlt01.png) -260px 0px no-repeat;
+}
+
+.good-left img {
+    width: 100%;
+    height: 100px;
+}
+
+.con2 {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #d2d2d2;
+}
+
+.con2 ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    color: #8c8c8c;
+    font-size: 12px;
+    position: relative;
+}
+
+.con2 ul li i {
+    display: block;
+    float: left;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    background: url(img/dot.jpg) no-repeat;
+}
+
+.good-right {
+    width: 960px;
+    height: 510px;
+    margin-right: 100px;
+}
+
+.good-right>ul li {
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #d2d2d2;
+}
+
+.good-right>ul li.g-active {
+    border-top: 2px solid #f42424;
+    height: 49px;
+    color: #f42424;
+    border-bottom: 2px solid #fff;
+}
+
+.good-info {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.good-info1 {
+    overflow: hidden;
+    display: none;
+}
+
+.good-info .c-active {
+    display: block;
+}
+
+.good-info1 .info-top {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin: 30px 0px 20px 0px;
+    padding: 0px 10px;
+    border-left: 4px solid #f42424;
+    color: #555555;
+}
+
+.good-info1 p {
+    width: 100%;
+    height: 90px;
+    padding: 30px 0px;
+    font-size: 12px;
+    color: #555555;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.good-info1 p span {
+    display: block;
+}
+
+.good-info1 p span.fcenter {
+    margin-left: 130px;
+}
+
+.good-info1 img {
+    /* width: 100%; */
+    margin-top: 20px;
+    height: 100%;
+}
+
+.right-code1 {
+    position: absolute;
+    top: 10px;
+    right: 180px;
+}
+
+.right-code1 p.fr i {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: url(img/weixin_code_640.png) no-repeat;
+    background-size: 100%;
+}
+
+.code-box1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    display: none;
+}
+
+.code1 {
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background: url(img/weixin_code_640.png) no-repeat;
+    background-size: 100%;
+}
+
+.code-btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 130px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #f42424;
+    border: 0px;
+    outline: none;
+}
+
+.code-btn:hover {
+    background-color: #ec5051;
+}
+
+
+/* 最下面的列表 */
+
+main .mst_bontyouy {
+    margin-top: 20px;
+}
+
+
+/* 地图 */
+
+.weizhi {
+    width: 445px;
+    height: 290px;
+    position: absolute;
+    top: 30px;
+    left: 83px;
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-right: 8px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 999;
+    display: none;
+}
+
+.llp a {
+    text-decoration: none;
+    padding: 3px 6px;
+    color: black;
+}
+
+.weizhi p {
+    margin-bottom: 13px;
+    padding-left: 5px;
+}
+
+.llp a:hover {
+    background-color: red;
+    color: white;
+}
+
+.eng a {
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 3px;
+    color: #8c8c8c;
+    font-weight: 700;
+}
+
+.eng a:hover {
+    color: red;
+}
+
+.newweizhi {
+    width: 100%;
+    height: 100%;
+}
+
+.eng_box {
+    width: 100%;
+    height: 73%;
+    overflow: hidden;
+}
+
+.eng_box_left {
+    width: 85%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.eng_box_left ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 1200%;
+    padding-left: 8px;
+    transition: all 0.3s;
+}
+
+.eng_box_left ul a :hover {
+    color: red;
+}
+
+.eng_box_left ul li {
+    width: 100%;
+    float: left;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.eng_box_left ul b {
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    color: #8c8c8c;
+    margin-right: 15px;
+    margin-bottom: 80px;
+    float: left;
+}
+
+.eng_box_left ul a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.eng_box_right {
+    width: 13%;
+    height: 92%;
+    float: left;
+    border-right: 2px solid #ccc;
+    position: relative;
+}
+
+#right_btnhh {
+    height: 30px;
+    width: 15px;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    cursor: pointer;
+    transition: all 0.1s;
+}

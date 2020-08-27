@@ -1,0 +1,16 @@
+{
+  "id": "2002935",
+  "name": "font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1331517",
+      "name": "alarm,闹钟,时钟,倒计时,时间",
+      "font_class": "alarm",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

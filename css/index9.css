@@ -1,0 +1,177 @@
+.main3 {
+    width: 90%;
+    height: 1000px;
+    position: relative;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+
+.box .banner {
+    width: 100%;
+    height: 300px;
+    background-position: top center;
+}
+
+.main3 .main3_span {
+    display: block;
+    height: 20px;
+    width: 350px;
+    border-bottom: 1px solid #cccc;
+    margin: 40px auto;
+}
+
+.main_div1 {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -50px;
+    text-align: center;
+}
+
+.hangde {
+    width: 80%;
+    height: 30px;
+    margin: 0px auto;
+    color: #5555;
+    margin-bottom: 60px;
+}
+
+.hangde a {
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.hangde a:first-child {
+    color: red;
+    font-weight: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nbkb {
+    width: 23%;
+    height: 460px;
+    background-color: white;
+    border: 8px solid #cccc;
+    margin: 8px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.box_top {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.box_top img {
+    width: 100%;
+}
+
+.nullb {
+    width: 100%;
+    height: 0;
+    background-color: rgba(29, 27, 27, 0.5);
+    transition: all 0.6s;
+    position: absolute;
+}
+
+.nbkb:hover .nullb {
+    height: 100%;
+}
+
+.mst_text {
+    height: 60px;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    transition: all 0.6s;
+}
+
+.nbkb:hover .mst_text {
+    bottom: 140px;
+}
+
+.mst_text p:hover {
+    cursor: pointer;
+}
+
+.mst_text p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.mst_text .p7 {
+    font-size: 23px;
+}
+
+.mst_text .p8 {
+    font-size: 16px;
+}
+
+.boxbotm {
+    width: 100%;
+    height: 110px;
+    padding: 5px 10px;
+}
+
+.boxbotm_img {
+    width: 40%;
+    height: 100px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.nbdiv {
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 35px;
+    margin-left: 15px;
+    display: none;
+}
+
+.boxbotm_img>img {
+    width: 100%;
+}
+
+.boxbotm_div {
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: #8C8C8C;
+    position: absolute;
+    bottom: 19px;
+    left: 6px;
+    line-height: 35px;
+}
+
+.boxbotm_div:hover {
+    cursor: pointer;
+}
+
+.hangde a:hover {
+    color: red;
+}

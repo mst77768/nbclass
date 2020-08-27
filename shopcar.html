@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" type="text/css" href="公共css.css">
+    <link rel="stylesheet" href="font_2008699_lx881p7vcq/iconfont.css">
+    <link rel="stylesheet" href="css/coods.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/coodcar.css">
+    <style>
+        a {
+            color: #939593;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box" style="background-color: white;">
+        <div class="top">
+            <div class="top_love">
+                <img src="img/位置 (1).png" alt=""><span id='weizhi'>郑州市</span>
+                <div id="Mstbbq">
+                    <img src="img/loadGoods.gif" alt="hh" id="img1_mst">
+                </div>
+                <span><a href="" id='denglu'>请登录</a></span><span><a href="">免费注册</a></span>
+                <div class="top_love_rigth">
+                    <span><a href="">我的订单</a></span>|
+                    <span><a href="">我的浏览</a></span>|
+                    <span><a href="">我的收藏</a></span>|
+                    <span><a href="">客服服务</a></span>|
+                    <span id="ppt"><a href="">网站导航 <b>﹀</b></a>
+                        <div class="spanbox">
+                            <div class="spanbox-left">
+                                <ul>
+                                    <li><h4>特色主题</h4></li>
+                                    <li>家用电器</li>
+                                    <li>男装女装</li>
+                                    <li>鞋靴箱包</li>
+                                </ul>
+                            </div>
+                            <div class="spanbox-right">
+                                <h4>促销活动</h4>
+                                <ul>
+                                    <li>拍卖活动</li>
+                                    <li>共创商品</li>
+                                    <li>积分商城</li>
+                                    <li>CMS频道</li>
+                                    <li>优惠活动</li>
+                                    <li>超值礼包</li>
+                                    <li>优惠券</li>
+                                    <li>礼品卡</li>
+                                    <li>预售商品</li>
+                                </ul>
+                            </div>
+                        </div>    
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- 侧边栏开始设计 -->
+
+        <!-- //头部下面写 -->
+        <header style="height: 120px; padding-top: 20px;color: #939593;">
+            <img src="img/shop_logo.gif" alt="">
+            <span style="font-size: 19px; margin-left: 20px;">购物车（<b style="color: red;">2</b>)</span>
+            <div class="input-group bootub1  ">
+                <input type="text" class="form-control" placeholder="兰博基尼" aria-describedby="basic-addon2" style="border:1px solid red;margin-top: 2px;">
+                <span class="input-group-addon glyphicon glyphicon-search" id="basic-addon2" style="background-color: red; padding: 0px 20px; color: white;font-size: 18px; "></span>
+            </div>
+        </header>
+        <!-- 搜索框结束了 -->
+        <div class="shopcar" style="height: auto;width: 100%;padding: 0px 85px; background-color: #F8F8F8;">
+            <div class="shopcar_top">
+                <div class="row top1" style="padding-top: 20px;">
+
+                    <div class="col-lg-10">
+                        <span class="sp1">1.我的购物车</span>
+
+                        <span class="glyphicon glyphicon-arrow-right" style="color: #FF8F23;"></span>
+                        <span>2.填写订单</span>
+                        <span class="glyphicon glyphicon-arrow-right"></span>
+                        <span>3.成功提交订单</span>
+                    </div>
+                    <div class=" col-lg-2">
+                        <div class="bon1">
+                            <span>配送至 </span>
+                            <span class="sp5">河南省郑州市中原区<span class="glyphicon glyphicon-menu-down "></span></span>
+                            <div class="butm"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 第一行结束了 -->
+                <div class="row " style="margin-top: 35px;background-color: white;padding:10px 0px;color: #8C8C8C; ">
+                    <div class=" col-lg-2"><input type="checkbox" id="chek1"> <label for="chek1"> 全选</label></div>
+                    <div class=" col-lg-5">商品</div>
+                    <div class=" col-lg-2">单价（元）</div>
+                    <div class=" col-lg-1">数量</div>
+                    <div class=" col-lg-1">小计</div>
+                    <div class=" col-lg-1">操作
+                    </div>
+                </div>
+                <div class="row nb3" style="margin-top: 30px; margin-bottom: 0px;">
+                    <div class="col-lg-12">
+                        <input type="checkbox" id="chek2"> <label for="chek2"> 美宝莲</label> <span> <img src="img/客服 (1)蓝.png" alt="" class="putn"></span>
+                    </div>
+                </div>
+                <!-- 第二行开始 -->
+                <div class="row a1" style="margin-top: 15px;background-color: white;height: 140px; padding:30px 0px;color: #8C8C8C; ">
+                    <div class=" col-lg-1 text-center"><input type="checkbox"></div>
+                    <div class=" col-lg-6"><img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490224462655.jpg" alt="">
+                        <div class="ppat">美宝莲 好气色潮色双搭轻垫霜提亮肌肤白皙气垫CC霜凸显好气色 提亮肌肤</div>
+
+                    </div>
+                    <div class=" col-lg-2">$<b>100.00</b></div>
+                    <div class=" col-lg-1"><input type="text" value="1">
+                        <div class="right">
+                            <span class="glyphicon glyphicon-menu-up  btn6"></span>
+                            <span class="glyphicon glyphicon-menu-down  btn7"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-1"><strong style="color: black;font-size: 18px;">￥100.00</strong>
+
+                    </div>
+                    <div class=" col-lg-1"><span class="del">删除</span><br>
+                        <span class="love">收藏</span>
+                    </div>
+                </div>
+
+                <div class="row nb3" style="margin-top: 30px; margin-bottom: 0px;">
+                    <div class="col-lg-12">
+                        <input type="checkbox" id="chek2"> <label for="chek2"> </label><span class="sp7">商创自营</span> <span><img src="img/客服 黄.png" alt="" class="putn"></span>
+                    </div>
+                </div>
+                <!-- 第三行开始 -->
+                <div class="row a1" style="margin-top: 15px;background-color: white;height: 140px; padding:30px 0px;color: #8C8C8C; ">
+                    <div class=" col-lg-1 text-center"><input type="checkbox"></div>
+                    <div class=" col-lg-6"><img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1489105083498.jpg" alt="">
+                        <div class="ppat">杰威尔发胶定型喷雾男士干胶头发持久定型造型啫喱水发蜡蓬松清香 快速定型，蓬松清香，不起白屑，买2送1</div>
+
+                    </div>
+                    <div class=" col-lg-2">$<b>110.00</b></div>
+                    <div class=" col-lg-1"><input type="text" value="1">
+                        <div class="right">
+                            <span class="glyphicon glyphicon-menu-up  btn6"></span>
+                            <span class="glyphicon glyphicon-menu-down  btn7"></span>
+                        </div>
+                    </div>
+                    <div class=" col-lg-1"><strong style="color: black;font-size: 18px;">￥110.00</strong>
+
+                    </div>
+                    <div class=" col-lg-1"><span class="del">删除</span><br>
+                        <span class="love">收藏</span>
+                    </div>
+                </div>
+
+                <div class="row nb" style="margin-top: 35px;background-color: white;padding:10px 0px;color: #8C8C8C; ">
+                    <div class=" col-lg-1"><input type="checkbox" id="chek1"> <label for="chek1"> 全选</label></div>
+                    <div class=" col-lg-1">删除选择商品</div>
+                    <div class=" col-lg-3">移到我的收藏</div>
+                    <div class=" col-lg-2 kl">已选择<i style="color: black; font-size: 16px;">2</i>件商品</div>
+                    <div class=" col-lg-1">已节省:￥0.0</div>
+                    <div class=" col-lg-2 ">总价(不含运费):<b>￥210.00</b></div>
+                    <div class=" col-lg-2"><button class="btn btn-danger btn-lg" style="width: 200px;">去支付</button></div>
+                </div>
+            </div>
+
+            <!-- 下面不用写了 -->
+            <div class="mst_bontyouy">
+
+                <div class="mytext" style="background-color: #F8F8F8;">猜你喜欢</div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490174303715.jpg" alt="">
+                    <h2>￥130.00</h2>
+                    <p>YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</p>
+                    <span>售出31件</span>
+                </div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490174208112.jpg" alt="">
+                    <h2>
+                        ¥1992.90 </h2>
+                    <p>森马夹克 2016冬装新款男士飞行夹克贴布绣立领休闲外套韩版潮流</p>
+                    <span>售出31件</span>
+                </div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490174414186.jpg" alt="">
+                    <h2>￥1230.00</h2>
+                    <p>YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</p>
+                    <span>售出31件</span>
+                </div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201809/thumb_img/0_thumb_G_1536621333045.jpg" alt="">
+                    <h2>￥520.00</h2>
+                    <p>YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</p>
+                    <span>售出31件</span>
+                </div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490224291051.jpg" alt="">
+                    <h2>￥970.00</h2>
+                    <p>YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</p>
+                    <span>售出3件</span>
+                </div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490224351677.jpg" alt="">
+                    <h2>￥181.00</h2>
+                    <p>YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</p>
+                    <span>售出31件</span>
+                </div>
+                <div class="mytext1">
+                    <img src="https://x.dscmall.cn/storage/images/201703/thumb_img/0_thumb_G_1490211843119.jpg" alt="">
+                    <h2>￥1040.00</h2>
+                    <p>YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</p>
+                    <span>售出31件</span>
+                </div>
+            </div>
+        </div>
+        <!-- 尾部 -->
+        <div class="footer" style="margin-top: 50px;">
+            <!-- 尾部的头部 -->
+            <div class="footer-title ">
+                <!-- 版心 -->
+                <div class="ft-core ">
+                    <!-- 各种保障 -->
+                    <div class="service-list ">
+                        <div class="service-item ">
+                            <div class="Seven "></div>
+                            <div class="Seven-text ">七天包退</div>
+                        </div>
+                        <div class="service-item ">
+                            <div class="Seven truegoods "></div>
+                            <div class="Seven-text ">正品保障</div>
+                        </div>
+                        <div class="service-item ">
+                            <div class="Seven goodcomment "></div>
+                            <div class="Seven-text ">好评如潮</div>
+                        </div>
+                        <div class="service-item ">
+                            <div class="Seven fast "></div>
+                            <div class="Seven-text ">闪电发货</div>
+                        </div>
+                        <div class="service-item ">
+                            <div class="Seven honor "></div>
+                            <div class="Seven-text ">权威荣誉</div>
+                        </div>
+                    </div>
+                    <!-- 客服 -->
+                    <div class="contact ">
+                        <!-- 电话 -->
+                        <div class="tel ">
+                            <div class="Seven tel-icon "></div>
+                            <div class="tel-text ">4001-021-758</div>
+                        </div>
+                        <!-- 联系客服 -->
+                        <div class="customer-service ">
+                            <div class="Seven contact-icon "></div>
+                            <div class="tel-text ">联系客服</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 尾部的主体 -->
+            <div class="footer-main ">
+                <div class="fm-core ">
+                    <!-- 上面的部分 -->
+                    <div class="fm-top ">
+                        <!-- 帮助列表 -->
+                        <div class="help-list ">
+                            <div class="help-item ">
+                                <h3 class="hi-title ">新手上路</h3>
+                                <ul>
+                                    <li class="hi-text ">售后流程</li>
+                                    <li class="hi-text ">购物流程</li>
+                                    <li class="hi-text ">订购方式</li>
+                                </ul>
+                            </div>
+                            <div class="help-item ">
+                                <h3 class="hi-title ">配送与支付</h3>
+                                <ul>
+                                    <li class="hi-text ">货到付款区域</li>
+                                    <li class="hi-text ">配送支付智能查询</li>
+                                    <li class="hi-text ">支付方式说明</li>
+                                </ul>
+                            </div>
+                            <div class="help-item ">
+                                <h3 class="hi-title ">服务保证</h3>
+                                <ul>
+                                    <li class="hi-text ">退换货原则</li>
+                                    <li class="hi-text ">售后服务保证</li>
+                                    <li class="hi-text ">产品质量保证 </li>
+                                </ul>
+                            </div>
+                            <div class="help-item ">
+                                <h3 class="hi-title ">联系我们</h3>
+                                <ul>
+                                    <li class="hi-text ">网站故障报告</li>
+                                    <li class="hi-text ">选机咨询</li>
+                                    <li class="hi-text ">投诉与建议</li>
+                                </ul>
+                            </div>
+                            <div class="help-item ">
+                                <h3 class="hi-title ">会员中心</h3>
+                                <ul>
+                                    <li class="hi-text ">资金管理</li>
+                                    <li class="hi-text ">我的收藏</li>
+                                    <li class="hi-text ">我的订单</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- 二维码 -->
+                        <div class="qr-code ">
+                            <div class="qr-code1 qc-first ">
+                                <div class="qc-weixin ">
+                                    <img src="公共图片/ecjia_qrcode.jpg ">
+                                </div>
+                                <div class="qc-tip ">关注微信</div>
+                            </div>
+                            <div class="qr-code1 ">
+                                <div class="qc-weixin ">
+                                    <img src="公共图片/ectouch_qrcode.jpg ">
+                                </div>
+                                <div class="qc-tip ">下载APP</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 下面的部分 -->
+                    <div class="fm-bottom ">
+                        <p class="copyright_links ">
+                            <span class="cl-text ">首页</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">隐私保护</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">联系我们</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">免责条款</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">公司简介</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">商家入驻</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">供应商入驻</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">意见反馈</span>
+                        </p>
+                        <p class="copyright_links ">
+                            <span class="cl-text ">b2b2c</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">多用户商城系统</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">商城系统</span>
+                            <span class="verticalLine ">|</span>
+                            <span class="cl-text ">ecjia新零售</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/meichaung.js "></script>
+<script>
+    $(function() {
+        $(".btn6").click(function() {
+            var text = parseInt($(this).parent().siblings("[type='text']").val());
+            $(this).parent().siblings("[type='text']").val(text + 1);
+            var pice = $(this).parents(".row").find("b").text();
+            var num = pice * (text + 1);
+            $(this).parents(".row").find("strong").text("￥" + num + ".00");
+            $(".kl>i").text(parseInt($(".kl>i").text()) + 1);
+
+            $(".nb b").text("￥" + (parseFloat($(".nb b").text().substring(1)) + parseFloat(pice)) + ".00");
+            console.log($(".nb b").text());
+            $("header b").text($(".kl>i").text());
+
+        })
+        $(".btn7").click(function() {
+            var pice = $(this).parents(".row").find("b").text();
+            var text = parseInt($(this).parent().siblings("[type='text']").val());
+            if (text == 1) {
+                text = 2;
+            } else {
+                $(".kl>i").text(parseInt($(".kl>i").text()) - 1);
+                $(".nb b").text("￥" + (parseFloat($(".nb b").text().substring(1)) - parseFloat(pice)) + ".00");
+
+            }
+            $(this).parent().siblings("[type='text']").val(text - 1);
+            var num = pice * (text - 1);
+            $(this).parents(".row").find("strong").text("￥" + num + ".00");
+            $("header b").text($(".kl>i").text());
+        })
+
+
+    })
+</script>
+
+</html>

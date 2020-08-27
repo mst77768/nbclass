@@ -1,0 +1,178 @@
+.shopcar_top {
+    width: 100%;
+    height: 800px;
+    font-size: 17px;
+}
+
+.bootub1 {
+    width: 400px;
+    float: right;
+}
+
+.shopcar .top1 {
+    font-size: 16px;
+    color: #8C8C8C;
+    cursor: pointer;
+}
+
+.col-lg-10>span {
+    margin-right: 8px;
+}
+
+.shopcar .sp5 {
+    font-size: 12px;
+    background-color: white;
+    padding: 6px 10px;
+    color: #8C8C8C;
+    border: 1px solid #cccc;
+    margin-left: 2px;
+    position: relative;
+    z-index: 456;
+}
+
+.bon1 {
+    position: relative;
+}
+
+.sp1 {
+    padding: 10px 19px;
+    border-radius: 18px;
+    background-color: #FF8F23;
+    color: white;
+    font-size: 14px;
+}
+
+.bon1:hover .butm {
+    display: block;
+}
+
+.bon1:hover .sp5 {
+    border-bottom: 2px solid white;
+}
+
+.butm {
+    width: 350px;
+    height: 150px;
+    position: absolute;
+    top: 25px;
+    right: 4px;
+    border: 1px solid #cccc;
+    display: none;
+    background-color: white;
+    z-index: 123;
+}
+
+.nb3 {
+    font-size: 16px;
+    color: #555555;
+}
+
+.nb3 label:hover {
+    color: red;
+}
+
+.nb3 span {
+    color: yellowgreen;
+    font-size: 15px;
+    margin-left: 3px;
+}
+
+.nb3 span:hover {
+    color: red;
+}
+
+.a1 img {
+    width: 80px;
+    border: 1px solid #ccc;
+    display: block;
+    float: left;
+}
+
+.ppat {
+    width: 340px;
+    height: 80px;
+    float: left;
+    margin-left: 10px;
+    color: #555555;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ppat:hover {
+    color: red;
+}
+
+.row [type="text"] {
+    width: 30px;
+    height: 40px;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    width: 22px;
+    height: 40px;
+    text-align: center;
+    margin-right: 32px;
+    margin-top: -3px;
+}
+
+.right span {
+    font-size: 15px;
+    border: 1px solid #cccc;
+    padding: 1px 1px;
+}
+
+.right span:hover {
+    background-color: red;
+    color: white;
+}
+
+b {
+    color: #555555;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.sp7 {
+    padding: 5px 25px;
+    background-color: red;
+    border: 1px solid #cccc;
+    border-radius: 15px;
+    color: white !important;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.del {
+    font-size: 14px;
+    color: blue;
+    cursor: pointer;
+}
+
+.love:hover {
+    color: red;
+}
+
+.del:hover {
+    color: red;
+}
+
+.love {
+    font-size: 14px;
+    color: blue;
+    cursor: pointer;
+}
+
+.nb {
+    font-size: 14px;
+    color: #555555;
+    line-height: 40px;
+}
+
+.nb b {
+    font-size: 21px;
+    color: red;
+}

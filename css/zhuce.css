@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    height: 885px;
+    background-color: #f8f8f8;
+}
+
+.head {
+    width: 100%;
+    height: 130px;
+}
+
+.head1 {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head1 .img1 {
+    width: 159px;
+    height: 57px;
+    margin-top: 42px;
+    float: left;
+    cursor: pointer;
+}
+
+.head1 .img2 {
+    width: 258px;
+    height: 70px;
+    float: left;
+    margin-top: 30px;
+}
+
+.head2 {
+    width: 154px;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+    float: right;
+}
+
+.head2 span {
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.head2 a {
+    text-decoration: none;
+    color: #f42424;
+}
+
+.head2 a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+    height: 530px;
+    position: relative;
+}
+
+.img3 {
+    width: 100%;
+    height: 530px;
+    overflow: hidden;
+}
+
+.img3 img {
+    margin-left: -182px;
+}
+
+.foot {
+    width: 100%;
+    height: 105px;
+}
+
+.foot1 {
+    width: 1200px;
+    height: 70px;
+    margin: 35px auto;
+}
+
+.foot1 p a {
+    text-decoration: none;
+    color: rgba(85, 85, 85, .5);
+}
+
+.foot1 p {
+    color: rgba(85, 85, 85, .5);
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.foot1 p a:hover {
+    color: #f42424;
+}
+
+.container {
+    width: 100%;
+    height: 615px;
+}
+
+.main {
+    width: 1200px;
+    height: 615px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.left {
+    width: 600px;
+    height: 615px;
+    position: relative;
+    float: left;
+}
+
+.im1 {
+    width: 400px;
+    height: 324px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: -180px;
+}
+
+.im1 img {
+    width: 400px;
+    height: 324px;
+}
+
+.right {
+    width: 600px;
+    height: 615px;
+    float: left;
+}
+
+.register-form {
+    width: 600px;
+    height: 470px;
+    padding-top: 38px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 600px;
+    height: 66px;
+}
+
+.item-label {
+    float: left;
+    width: 136px;
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 40px;
+    padding-right: 24px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.item-info input {
+    float: left;
+    width: 340px;
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    outline-color: #000;
+    font-size: 13px;
+}
+
+.input-tip {
+    width: 480px;
+    height: 26px;
+    font-size: 12px;
+    float: left;
+    padding-left: 136px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.im2 img {
+    width: 112px;
+    height: 39px;
+    position: absolute;
+    top: 108px;
+    right: 122px;
+    cursor: pointer;
+}
+
+.wen {
+    display: block;
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #f0f0f0;
+    font-size: 12px;
+    position: absolute;
+    top: 179px;
+    right: 124px;
+    cursor: pointer;
+}
+
+.wen:hover {
+    color: #f42424;
+}
+
+.item-item2 {
+    width: 400px;
+    height: 50px;
+}
+
+
+/* .btn {
+    display: block;
+    float: left;
+    margin-left: 137px;
+    margin-top: 2px;
+    cursor: pointer;
+} */
+
+.ui-solid-label {
+    cursor: pointer;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+}
+
+.item-checkbox span {
+    color: #438cde;
+}
+
+.item-checkbox span:hover {
+    color: #f42424;
+}
+
+.im4 {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #8c8c8c;
+    float: left;
+    margin-left: 137px;
+}
+
+.im4 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.item-button {
+    width: 400px;
+    height: 50px;
+    margin-left: 137px;
+}
+
+.btn1 {
+    width: 342px;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0;
+    background: #f42424;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    opacity: .8;
+}

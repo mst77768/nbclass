@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1597231523513'); /* IE9 */
+  src: url('iconfont.eot?t=1597231523513#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAPsAAsAAAAACAwAAAOeAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqEGINNATYCJAMICwYABCAFhG0HLxvyBhEVnAHJfhS4sTOkT57J+WuTpEIX6f8fGaUz93Qn8wMQh0EOouwPEVeZVIYwVFiRry49PqEF+oY//vHqX/Za2ds0EAhgAIMqXAqEJ5rBfeLecUt8PqBc5pj8qQswDiigvXHM80ALpMC4YeyClrgfCAAF3IUiufmltZCBwRxGAJAxQwNdkGUMYA3lBDIQSCrmMpB14CHjlnMPIbA2+Dz5hikZwIGnMKsq+/N6kfmRWFlUMAlaPRPU09kAsEUABRAKYACprXSUg0aJUBQKNcHgDdsqJ8BHYjJ5gs3+8QACEAnMUhUAwBUKrknoiC71lxwAgAGQAzgG4P2gCwFylcra3MvT0tKmy/Cx3vipQf+hTvd+lk5Xq9fXGY0NBsOgAuXUq0dXauwKbTQaW41Yp1ihJaBKqVypgSgOp3z2Vwyk28b39VGaTbbiAfsdjxT3dJ7CaT/NZltBHF+7kXarw8GzZI8h/9xDV3HfgS0OZ40FY+UJukS1dorMLXRoGD14eLNtrShasPx67daj++3qsF1sFuFaWkJGj648DNRpBFsT3WMcx1zfXY7es7Qcjdqyexynqmk5St++pSh67O2bowxxvZvRY7Kjb9+W3pFWRXXsRBc/TdHP0FC3pjA0pyg2Nl/wt+FnyvlROX3FwoW9obw6ZzCkIooU9fcXkcyGZKFIqxOHyt5M9kdmJtx+nli4xnrpH8gvxhY5LJ+3141kZhDLvd+LQuKDpMiG5HVFpL+fFEWGlI7hJxqPjbXG5sbNeU2bF0UXLs9rzD04V/IpN/BtboxeVPG05YWbc9Z/bcq8zaqbcpz4n+ZwY/GxtGaz42ZkAgBMo5+o8FO/A/W6o586LFJ/y5QMAPCs6cde5DONoZsLkN26kwC/UNixhmli08gxRViZ4XAM8lcjU1hhwMT0WHs51GUHiY1AxoUQHKRwA4UMviRGCwUPJWIhgQwZUCBEwWIlbEwCBWFyAMEWAxBYOgkOwdxNUJa+JEb7gWfvDwnLKBTqs1lTyb8hmUO4Mh6wfcDuOSnbzDIsP6N+hJXS4oB+R2o2DGM35NMnTEhTTGhPPTErUJQjLOAwDCFDoexw584wl7nvVdWduj1HIeUgaMXQAWw+gLXLEuU1ZrLw/jOkPQQraiBUOe8QaWzrYNQZOpBOitSJcCvHNE/ahDEFKCSLwAJsKFiJDJTqXg7asY4ZECtmPaqnuiq65VXx7TYBKJhaLstHwd+d2KMQAAA=') format('woff2'),
+  url('iconfont.woff?t=1597231523513') format('woff'),
+  url('iconfont.ttf?t=1597231523513') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1597231523513#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-alarm:before {
+  content: "\e601";
+}
+

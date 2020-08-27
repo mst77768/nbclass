@@ -1,0 +1,37 @@
+/*通用居中*/
+.ma{
+	margin: 0 auto;
+}
+/*通用小手*/
+.hand{
+	cursor: pointer;
+}
+/*通用高度*/
+.ht{
+	width: 1200px;
+	height: 80px;
+}
+/*通用左浮动*/
+.fl{
+	float: left;
+}
+/*通用右浮动*/
+.fr{
+	float: right;
+}
+/*通用背景色*/
+.bgc{
+	background-color: #EE356C;
+}
+/*通用颜色*/
+.col{
+	color:#555595;
+}
+/* 最右边右外边框为0 */
+.mr{
+	margin-right: 0;
+}
+/* 转为块元素 */
+.db{
+	display: block;
+}

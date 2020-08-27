@@ -1,0 +1,1600 @@
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            ul li {
+                list-style: none;
+            }
+            
+            a {
+                text-decoration: none;
+                color: #8C8C8C;
+            }
+            
+            .box {
+                width: 1510px;
+                height: auto;
+                background-color: aliceblue;
+                position: relative;
+                overflow: hidden;
+            }
+            /* 头部设计 */
+            
+            .box .top {
+                width: 99.77%;
+                height: 30px;
+                background-color: #EEEEEE;
+                line-height: 30px;
+                color: #8C8C8C;
+                font-size: 12px;
+                font-weight: 400;
+            }
+            /* 头部登录版心的css设计 */
+            
+            .box .top .top_love {
+                height: 95%;
+                width: 1400px;
+                float: right;
+                padding-right: 66px;
+                padding-top: 4px;
+                line-height: 20px;
+            }
+            /* 头部的位置矢量图的大小设计 */
+            
+            .box .top .top_love img {
+                width: 23px;
+                height: 25px;
+                vertical-align: middle;
+            }
+            
+            .box .top .top_love span:not(#weizhi) {
+                margin-right: 10px;
+                padding-left: 5px;
+            }
+            
+            .box .top .top_love span :nth-child(6) {
+                margin-right: 3px;
+            }
+            
+            .box .top .top_love span a:hover {
+                color: red;
+            }
+            
+            #ppt a {
+                display: block;
+                width: 107%;
+                z-index: 999;
+                position: relative;
+                text-align: center;
+                border-top: 1px solid #EEEEEE;
+                border-left: 1px solid #EEEEEE;
+                border-right: 1px solid #EEEEEE;
+            }
+            
+            #ppt a:hover {
+                border-top: 1px solid #cccc;
+                border-left: 1px solid #cccc;
+                border-right: 1px solid #cccc;
+                color: #8C8C8C;
+                background-color: white;
+                border-bottom: 3px solid white;
+            }
+            
+            .abc {
+                border-top: 1px solid #cccc;
+                border-left: 1px solid #cccc;
+                border-right: 1px solid #cccc;
+                color: #8C8C8C;
+                background-color: white;
+                border-bottom: 3px solid white;
+            }
+            
+            .box .top .top_love span i {
+                background-color: black;
+                display: block;
+                height: 6px;
+            }
+            
+            #denglu {
+                color: red;
+            }
+            
+            #ppt b {
+                padding-top: 50px;
+                line-height: 10px;
+            }
+            
+            #Mstbbq {
+                position: absolute;
+                width: 450px;
+                height: 250px;
+                top: 30px;
+                background-color: white;
+                z-index: 888;
+                border: 1px solid #cccc;
+                display: none;
+            }
+            
+            #Mstbbq #img1_mst {
+                display: block;
+                width: 170px;
+                height: 170px;
+                margin-left: 130px;
+                margin-top: 20px;
+            }
+            
+            #weizhi {
+                margin-right: 15px;
+                position: relative;
+                z-index: 999;
+                display: inline-block;
+                cursor: pointer;
+                height: 29px;
+            }
+            
+            .top_love_rigth {
+                width: 370px;
+                height: 100%;
+                line-height: 20px;
+                float: right;
+            }
+            
+            .top_love_rigth i {
+                border: 1px solid black;
+                height: 8px;
+                width: 0px;
+                background-color: #8C8C8C;
+            }
+            
+            #ppt {
+                float: right;
+                padding-right: 5.4px;
+                height: 29px;
+                text-align: center;
+                margin-top: -3px;
+                line-height: 27px;
+                position: relative;
+                z-index: 999;
+            }
+            
+            .spanbox {
+                width: 370px;
+                height: 196px;
+                background-color: white;
+                position: absolute;
+                top: 28px;
+                right: 0;
+                border: 1px solid #cccc;
+                z-index: 123;
+                display: none;
+                overflow: hidden;
+            }
+            
+            .spanbox .spanbox-left {
+                width: 30%;
+                height: 75%;
+                border-right: 1px solid #cccc;
+                float: left;
+                margin: 20px 10px 0px 0px;
+            }
+            
+            .spanbox .spanbox-left ul {
+                width: 100%;
+                height: 100%;
+            }
+            
+            h4 {
+                color: black !important;
+            }
+            
+            .spanbox .spanbox-left ul li {
+                width: 100%;
+                height: 36px;
+                text-align: center;
+                line-height: 36px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            
+            .spanbox ul li:hover {
+                color: red;
+            }
+            
+            .spanbox .spanbox-right {
+                width: 60%;
+                height: 75%;
+                margin: 20px 10px 0px 0px;
+                float: left;
+            }
+            
+            .spanbox .spanbox-right ul {
+                width: 100%;
+                height: 80%;
+            }
+            
+            .spanbox .spanbox-right h4 {
+                font-size: 15px;
+                color: black;
+                margin-bottom: 10px;
+            }
+            
+            .spanbox .spanbox-right ul li {
+                width: 32.5%;
+                height: 36px;
+                text-align: center;
+                line-height: 36px;
+                float: left;
+                line-height: 36px;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            /* 头部结束 */
+            
+            .rigth-black {
+                width: 350px;
+                /* background-color: black; */
+                position: fixed;
+                right: -300px;
+                top: 0px;
+                height: 100%;
+                background-color: #ECEAEA;
+                z-index: 999;
+            }
+            
+            .mstyoub {
+                color: red;
+                width: 100%;
+                height: 40px;
+                font-size: 12px;
+            }
+            
+            .mstyoub h3 {
+                float: right;
+                text-align: right;
+                margin-top: 0px;
+                font-size: 17px;
+            }
+            
+            .Mstright_botm [type="button"] {
+                width: 90%;
+                height: 38px;
+                margin-left: 12px;
+                background-color: red;
+                color: white;
+                font-size: 19px;
+                border: 0px;
+                line-height: 38px;
+                margin-bottom: 10px;
+            }
+            
+            .rigth-black .Mstright {
+                width: 300px;
+                height: 100%;
+                float: right;
+                position: relative;
+            }
+            
+            .rigth-black .Mstright .Mstright_top {
+                width: 100%;
+                height: 40px;
+                background-color: #EFEFEF;
+                border: 1px solid #cccc;
+                line-height: 40px;
+                padding: 0 10px;
+            }
+            /* x下次不要忘记修改 */
+            
+            .mst_main {
+                width: 100%;
+                padding: 10px;
+                height: 640px;
+                float: right;
+                line-height: 640px;
+                text-align: center;
+            }
+            
+            .rigth-black .Mstright .Mstright_botm {
+                width: 100%;
+                height: 80px;
+                background-color: white;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 5px;
+                padding-bottom: 10px;
+            }
+            
+            .rigth-black .Mstright .Mstright_top img {
+                width: 26px;
+                float: right;
+                margin-top: 4px;
+                cursor: pointer;
+            }
+            
+            .M_blacklove {
+                width: 50px;
+                padding-top: 105px;
+                height: 100%;
+                background-color: black;
+            }
+            
+            .M_blacklove div {
+                width: 100%;
+                margin: 10px auto;
+                height: 40px;
+                background-color: black;
+                position: relative;
+            }
+            
+            #shoplMst {
+                height: 140px;
+            }
+            
+            #shoplMst span:nth-of-type(1) {
+                position: absolute;
+                top: 34px;
+                display: block;
+                width: 20px;
+                left: 15px;
+                color: white;
+                font-size: 13px;
+            }
+            
+            #bbj {
+                width: 80%;
+                height: 99%;
+                margin: 1px auto;
+                border-top: 1px solid #cccc;
+                border-bottom: 1px solid #cccc;
+            }
+            
+            #shoplMst:hover .pput {
+                background-color: white;
+                color: red;
+            }
+            
+            #shoplMst span:nth-of-type(2) {
+                display: block;
+                width: 26px;
+                height: 26px;
+                border-radius: 50%;
+                background-color: red;
+                color: white;
+                text-align: center;
+                line-height: 26px;
+                font-size: 14px;
+                position: absolute;
+                left: 10px;
+                bottom: 20px;
+            }
+            
+            .M_blacklove div:hover {
+                background-color: red;
+                color: white;
+            }
+            
+            .M_blacklove div:hover .mst1 {
+                background-color: red;
+            }
+            
+            #bbj:hover {
+                border: 0;
+            }
+            
+            .M_blacklove .mst1 {
+                background-position: 0px 0px;
+                width: 20px;
+                height: 20px;
+                margin: 10px auto;
+                position: absolute;
+                left: 15px;
+            }
+            
+            #mstLaft {
+                position: absolute;
+                right: 50px;
+                height: 185px;
+                top: -11px;
+                width: 267px;
+                background-color: white;
+                color: black;
+                padding: 10px;
+                border-radius: 5px 0px 5px 0px;
+                display: none;
+            }
+            
+            #mstLaft span {
+                width: 13px;
+                height: 13px;
+                transform: rotate(45deg);
+                position: absolute;
+                right: -6px;
+                top: 12px;
+                background-color: white;
+            }
+            
+            #mstLaft img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                margin-left: 10px;
+            }
+            
+            #mstLaft div {
+                background-color: white;
+                width: 120px;
+                height: 70px;
+                float: right;
+                color: black;
+                padding-top: 30px;
+                font-size: 12px;
+                font-weight: 300;
+            }
+            
+            #mstLaft div p {
+                margin-top: 17px;
+            }
+            
+            #mstLaft .mstbotn {
+                width: 100%;
+                height: 60px;
+                float: right;
+                border-top: 1px solid #EEEEEE;
+                text-align: center;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                position: relative;
+            }
+            
+            #mstLaft .mstbotn button {
+                width: 88px;
+                height: 30px;
+                border: 1px solid #EEEEEE;
+                margin-right: 2px;
+                font-size: 13px;
+                position: absolute;
+                bottom: 20px;
+                box-shadow: 1px 1px 1px #EEEEEE;
+            }
+            
+            #mstLaft .mstbotn button:first-child {
+                left: 30px;
+            }
+            
+            #mstLaft .mstbotn button:last-child {
+                right: 30px;
+            }
+            
+            #mstLaft .mstbotn button:hover {
+                border: 1px solid red;
+            }
+            /* #mstLaft:hover {
+        color: black;
+    } */
+            
+            .M_blacklove div .cp1 {
+                background-position: -3px -29px;
+            }
+            
+            .M_blacklove div .cp2 {
+                width: 30px;
+                height: 30px;
+                background-size: cover;
+                top: -5px;
+                left: 10px;
+            }
+            
+            .M_blacklove div .cp3 {
+                background-position: -36px 0px;
+            }
+            
+            .M_blacklove div .cp4 {
+                background-position: 0px -57px;
+            }
+            
+            .M_blacklove div .cp5 {
+                background-position: -1px -110px;
+            }
+            
+            .M_blacklove div .cp6 {
+                width: 31px;
+                height: 31px;
+                background-size: cover;
+                top: -5px;
+                left: 9px;
+            }
+            
+            .M_blacklove div .cp7 {
+                width: 30px;
+                height: 30px;
+                background-size: cover;
+                top: -5px;
+                left: 9px;
+            }
+            
+            .M_blacklove div .cp8 {
+                background-position: -1px -174px;
+            }
+            
+            .M_blacklove .pputy {
+                position: relative;
+                margin-top: 114px;
+            }
+            
+            .M_blacklove div .cp9 {
+                background-position: 0 -201px;
+            }
+            
+            .M_blacklove div .leftbox {
+                position: absolute;
+                width: 100px;
+                height: 38px;
+                left: -140px;
+                top: -10px;
+                color: white;
+                text-align: center;
+                line-height: 35px;
+                font-size: 13px;
+                display: none;
+                cursor: pointer;
+            }
+            
+            .M_blacklove div .leftbox span {
+                display: block;
+                width: 12px;
+                height: 12px;
+                transform: rotate(45deg);
+                position: absolute;
+                right: -6px;
+                top: 12px;
+                background-color: black;
+            }
+            
+            h5 {
+                position: relative;
+            }
+            
+            .M_blacklove div .leftbox:hover {
+                background-color: black;
+            }
+            /* 侧边栏的黑色的自己设计吧 */
+            
+            .box header {
+                width: 89.5%;
+                height: 170px;
+                margin: 0 auto;
+                border-bottom: 3px solid red;
+            }
+            
+            .box header .mst_header_top {
+                width: 100%;
+                height: 60%;
+                padding-top: 22px;
+            }
+            
+            .box header .mst_header_top img {
+                float: left;
+            }
+            
+            .box header .mst_header_btomm {
+                width: 100%;
+                height: 39%;
+                line-height: 80px;
+                padding-top: 10px;
+            }
+            
+            .box header .mst_header_center {
+                width: 840px;
+                height: 100%;
+                float: left;
+                text-align: right;
+            }
+            
+            .box header .mst_header_center [type="text"] {
+                width: 520px;
+                border: 2px solid red;
+                padding: 8px;
+                height: 34px;
+                font-size: 12px;
+                color: #999999;
+            }
+            
+            .box header .mst_header_center p {
+                margin-top: 5px;
+                text-align: left;
+                margin-left: 180px;
+                font-size: 13px;
+                color: #999999;
+            }
+            
+            .box header .mst_header_center span {
+                margin-right: 10px;
+                margin-top: 5px;
+            }
+            
+            .box header .mst_header_center [type="button"] {
+                width: 70px;
+                height: 34px;
+                border: 0;
+                background-color: red;
+                color: white;
+                margin-top: 0px;
+                border: 3px solid red;
+                padding-bottom: 1px;
+            }
+            
+            .box header .mst_header_center #btn1 {
+                margin-left: -12px;
+                outline: 0;
+                margin-right: 5px;
+            }
+            
+            .box header .mst_header_rigth {
+                width: 300px;
+                height: 100%;
+                float: right;
+                text-align: center;
+            }
+            
+            .mst_header_right_ubs {
+                width: 200px;
+                height: 38px;
+                float: right;
+                border: 1px solid #cccc;
+                line-height: 35px;
+                color: red;
+                font-size: 13px;
+                z-index: 123;
+                position: relative;
+            }
+            
+            .mst_header_right_ubs .mst_but_header {
+                position: absolute;
+                top: 36px;
+                right: -1px;
+                width: 331px;
+                padding-left: 2px;
+                height: 150px;
+                border: 1px solid #cccc;
+                z-index: 3;
+                background-color: white;
+                display: none;
+                line-height: 120px;
+                color: #8C8C8C;
+                font-size: 15px;
+            }
+            
+            .mst_header_right_ubs:hover .mst_but_header {
+                display: block;
+            }
+            
+            #msttaotao {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                bottom: -5px;
+                border-bottom: 2px solid white;
+                z-index: 555;
+            }
+            
+            .mst_header_right_ubs:hover {
+                z-index: 999;
+                border-bottom: 4px solid white;
+            }
+            
+            .mst_header_right_ubs img {
+                width: 30px;
+                margin-left: 30px;
+                margin-right: -50px;
+            }
+            
+            .mst_header_right_ubs #sp1 {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: red;
+                color: white;
+                display: inline-block;
+                line-height: 20px;
+                text-align: center;
+            }
+            
+            #Mstbbq img {
+                width: 200px;
+                height: 200px;
+                margin: 0px auto;
+            }
+            
+            #mst_nav .mst_butomn_ul {
+                width: 1200px;
+                height: 103%;
+            }
+            
+            #mst_nav .mst_butomn_ul>li {
+                width: 80px;
+                height: 80%;
+                margin-right: 11px;
+                float: left;
+                text-align: center;
+                line-height: 50px;
+                margin-top: 10px;
+            }
+            
+            #mst_nav .mst_butomn_ul>li a {
+                color: #555555;
+            }
+            
+            #mst_nav .mst_butomn_ul>li a:hover {
+                color: red;
+            }
+            
+            .box #mst_nav .mst_butomn_ul #flirtli {
+                width: 230px;
+                height: 83%;
+                background-color: red;
+                cursor: pointer;
+                position: relative;
+            }
+            
+            .box #mst_nav .mst_butomn_ul #flirtli a {
+                color: white;
+                font-size: 16px;
+                font-weight: 800;
+            }
+            
+            #mst_nav .mst_butomn_ul #flirtli a:hover {
+                color: white !important;
+            }
+            
+            #flirtli ul img {
+                width: 17px;
+                margin-right: 10px;
+                vertical-align: middle;
+            }
+            
+            #flirtli:hover .mstbb {
+                display: block;
+            }
+            
+            #flirtli ul {
+                width: 230px;
+                height: 470px;
+                background-color: rgba(0, 0, 0, 0.6);
+                position: absolute;
+                right: 0;
+                top: 48.9px;
+                z-index: 888;
+                display: none;
+            }
+            
+            #flirtli ul>li {
+                width: 100%;
+                height: 67px;
+                text-align: left;
+                padding-left: 20px;
+                position: relative;
+            }
+            
+            #flirtli ul>li:hover {
+                background-color: black;
+            }
+            
+            #flirtli ul>li p {
+                margin-bottom: 0px;
+                height: 25px;
+                color: white;
+                font-size: 14px;
+            }
+            
+            #flirtli ul>li>span {
+                margin-left: 25px;
+                font-size: 14px !important;
+                color: #bfbfbf !important;
+            }
+            
+            #flirtli>ul>li>ul {
+                width: 950px;
+                height: 470px;
+                background-color: white;
+                position: absolute;
+                left: 230px;
+                top: 0;
+                display: none;
+                border-radius: 5px;
+                z-index: 456;
+            }
+            
+            #flirtli>ul>li:hover ul {
+                display: block;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left {
+                width: 75%;
+                height: 100%;
+                float: left;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left span {
+                text-align: center;
+                line-height: 30px;
+                margin: 5px 2px;
+                background-color: #5F4F4F;
+                padding: 4px 10px;
+                color: white;
+                font-size: 12px;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left .Mst_ul_left_top {
+                width: 98%;
+                height: 55px;
+                float: right;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left table {
+                width: 96%;
+                height: auto;
+                float: right;
+                color: #8C8C8C;
+                font-size: 11px;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left table tr {
+                width: 100%;
+                height: 40px;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left table tr span {
+                padding-right: 6px;
+                background-color: white;
+                color: #8C8C8C;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left table tr td:first-child {
+                color: black;
+                font-size: 13px;
+                font-weight: 700;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_left table tr td:last-child {
+                border-bottom: 1px dotted #8C8C8C;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_rigth {
+                width: 24%;
+                height: 100%;
+                float: right;
+            }
+            
+            #flirtli ul {
+                box-shadow: 5px 5px 10px whitesmoke;
+            }
+            
+            #flirtli>ul>li>ul .Mst_ul_rigth img {
+                width: 50%;
+                height: 60px;
+                float: left;
+                margin: 0;
+                border: 1px solid whitesmoke;
+            }
+            /* 下面是主体设计了 */
+            
+            .box main {
+                width: 89.5%;
+                height: auto;
+                margin: 10px auto;
+                /* background-color: aqua; */
+            }
+            
+            .box main .Mst_main_top {
+                width: 100%;
+                height: 160px;
+                background-color: #F5F5F5;
+            }
+            
+            .box main .Mst_main_top .hatsale-mt {
+                font-size: 16px;
+                color: #fff;
+                background: #f42424;
+                float: left;
+                padding: 37px 12px;
+                width: 40px;
+                height: 160px;
+                overflow: hidden;
+                font-family: "microsoft yahei";
+                margin-right: 16px;
+            }
+            
+            .box main .Mst_main_top .main_mst_mk1 {
+                width: 300px;
+                height: 130px;
+                margin: 15px 11px;
+                float: left;
+                background-color: white;
+                border: 1px solid white;
+            }
+            
+            .main_img {
+                width: auto;
+                height: auto;
+                float: left;
+            }
+            
+            .box main .Mst_main_top .main_mst_mk1 img {
+                width: 110px;
+                height: 110px;
+                float: left;
+                margin: 10px 10px;
+                vertical-align: middle;
+            }
+            
+            .box main .Mst_main_top .main_mst_mk1 .main_text {
+                width: 168px;
+                height: 120px;
+                float: right;
+                padding: 15px 5px;
+                font-size: 12px;
+                color: #555555;
+                position: relative;
+            }
+            
+            .main_mst_mk1:hover {
+                border: 1px solid red !important;
+            }
+            
+            .box main .Mst_main_top .main_mst_mk1 .main_text strong {
+                color: red;
+                font-size: 18px;
+                display: block;
+                left: 5px;
+                bottom: 33px;
+                position: absolute;
+                bottom: 35px;
+            }
+            
+            .main_buton_mst {
+                position: absolute;
+                width: 80px;
+                height: 26px;
+                background-color: #f42424;
+                color: white;
+                text-align: center;
+                line-height: 26px;
+                position: absolute;
+                bottom: 3px;
+            }
+            
+            .box .Mst_main_top2 {
+                margin-top: 20px;
+                width: 100%;
+                height: 40px;
+            }
+            
+            .box .Mst_main_top2 .Mst_main_top2_text {
+                width: 170px;
+                height: 30px;
+                color: #555555;
+                position: relative;
+            }
+            
+            .box .Mst_main_top2 .Mst_main_top2_text:hover .Mst_main_top2_texts {
+                border-bottom: 2px solid white;
+                border-top: 1px solid red;
+                border-left: 1px solid red;
+                border-right: 1px solid red;
+            }
+            
+            .box .Mst_main_top2 .Mst_main_top2_text:hover .Mst_main_top2_text_dotm {
+                border: 1px solid red;
+                display: block;
+            }
+            
+            .box .Mst_main_top2 .Mst_main_top2_text .Mst_main_top2_texts {
+                width: 100%;
+                height: 100%;
+                line-height: 30px;
+                font-size: 14px;
+                text-align: center;
+                border: 1px solid #cccc;
+                cursor: pointer;
+                position: relative;
+                z-index: 666;
+            }
+            
+            .box .Mst_main_top2 .Mst_main_top2_text b {
+                display: block;
+                float: right;
+                margin-top: 3px;
+                margin-right: 10px;
+            }
+            
+            .Mst_main_top2_text_dotm {
+                width: 270px;
+                height: 100px;
+                border: 1px solid #cccc;
+                position: absolute;
+                top: 29px;
+                left: 0;
+                background-color: white;
+                display: none;
+            }
+            
+            .Mst_main_top2_text_dotm ul {
+                width: 100%;
+                height: 90%;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
+            
+            .Mst_main_top2_text_dotm ul li a {
+                width: 32%;
+                float: left;
+                height: 30px;
+                font-size: 13px;
+                color: black;
+            }
+            
+            .Mst_main_top2_text_dotm ul li a:hover {
+                color: red;
+            }
+            
+            .mst_main_top3 {
+                width: 100%;
+                height: 95px;
+                border: 1px dashed #cccc;
+                padding: 17px 10px;
+                padding-left: 40px;
+                font-size: 15px;
+                color: #555555;
+            }
+            
+            .Mst_main_rigth2 {
+                width: 200px;
+                height: 100%;
+                float: right;
+                text-align: right;
+                padding-right: 6px;
+            }
+            
+            .Mst_main_rigth2 button {
+                text-align: center;
+                background-color: white;
+                border: 1px solid #cccc;
+                padding: 2px 5px;
+                color: #8C8C8C;
+            }
+            
+            .Mst_main_rigth2 button:hover {
+                border: 1px solid red;
+                color: red;
+            }
+            
+            .Mst_main_rigth2 img {
+                width: 12px;
+            }
+            
+            .Mst_main_rigth1 {
+                width: 1000px;
+                height: 100%;
+                float: right;
+                padding-right: 40px;
+            }
+            
+            .Mst_main_rigth1 div {
+                width: 14%;
+                height: 60px;
+                border: 1px solid #cccc;
+                float: left;
+                text-align: center;
+                line-height: 55px;
+                cursor: pointer;
+                background-color: white;
+            }
+            
+            .box .Mst_main_rigth1 div:hover {
+                border: 1px solid red;
+                color: red;
+            }
+            
+            .Mst_main_rigth1 div img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .Mst_main_top4 {
+                width: 100%;
+                height: 45px;
+                border: 1px solid #cccc;
+                margin-top: 12px;
+                padding: 5px 5px;
+            }
+            
+            .Mst_main_top4_left {
+                width: 445px;
+                height: 100%;
+                padding-top: 5px;
+                float: left;
+            }
+            
+            .Mst_main_top4_left a {
+                display: block;
+                width: 85px;
+                height: 80%;
+                line-height: 20px;
+                text-align: center;
+                font-size: 13px;
+                float: left;
+                border-right: 1px solid #cccc;
+                color: black;
+            }
+            
+            .Mst_main_top4_left a:hover {
+                color: red;
+            }
+            
+            .Mst_main_top4_left a:first-child {
+                color: red;
+            }
+            
+            .Mst_main_top4_left a img {
+                width: 12px;
+                vertical-align: middle;
+                margin-left: 5px;
+            }
+            
+            .Mst_main_top4_center {
+                float: left;
+                width: 420px;
+                height: 100%;
+                margin-left: 0;
+                color: #999999;
+                padding: 4px 0px;
+            }
+            
+            .Mst_left_top4 {
+                width: 174px;
+                height: 100%;
+                padding-right: 10px;
+                border-right: 1px solid #cccc;
+                float: left;
+                position: relative;
+            }
+            
+            .Mst_left_top4 .mstun_u {
+                width: 91%;
+                height: 38px;
+                background-color: #EFECEB;
+                position: absolute;
+                top: 26px;
+                padding: 8px 10px;
+                display: none;
+            }
+            
+            .mytext1>img {
+                transition: all 0.5s;
+            }
+            
+            .mytext1>img:hover {
+                opacity: 0.7;
+                transform: translateY(-2px);
+            }
+            
+            .Mst_left_top4 .mstun_u button {
+                width: 60px;
+                float: left;
+                margin-right: 5px;
+                margin-left: 3px;
+                border: 1px solid #ccc;
+            }
+            
+            .Mst_left_top4 .mstun_u .mstbtn1 {
+                color: black;
+                background-color: whitesmoke;
+            }
+            
+            .Mst_left_top4 .mstun_u .mstbtn2 {
+                background-color: red;
+                color: white;
+            }
+            
+            .Mst_main_top4_center input {
+                width: 68px;
+                height: 26px;
+                border: 1px solid #cccc;
+                color: #8C8C8C;
+                font-size: 12px;
+                padding-left: 5px;
+            }
+            
+            .Mst_main_top4_center .Mst_rigth_top4 {
+                width: 240px;
+                height: 100%;
+                float: right;
+                font-size: 13px;
+                line-height: 23px;
+                color: #555555;
+            }
+            
+            .Mst_main_top4_center .Mst_rigth_top4 span:hover {
+                color: red;
+            }
+            
+            .Mst_main_top4_center .Mst_rigth_top4 input {
+                width: 12px;
+                height: 12px;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+            
+            .Mst_main_top4_rigth {
+                width: 220px;
+                height: 100%;
+                float: right;
+                padding: 4px 0;
+                font-size: 12px;
+                color: #555555;
+            }
+            
+            .Mst_top4_right_left input {
+                font-size: 12px;
+                height: 20px;
+                width: 24px;
+                border: 1px solid #cccc;
+                background-color: white;
+                color: #cccc;
+                vertical-align: baseline;
+            }
+            
+            .Mst_top4_right_left {
+                width: 100px;
+                height: 100%;
+                float: left;
+                border-right: 1px solid #cccc;
+            }
+            
+            .Mst_main_top4_rigth img {
+                width: 14px;
+                vertical-align: middle;
+            }
+            
+            .Mst_top4_right_rigth1 {
+                width: 50px;
+                height: 100%;
+                float: right;
+                border-right: 1px solid #cccc;
+                margin-left: 0px;
+                font-size: 13px;
+            }
+            
+            .Mst_top4_right_rigth1:hover {
+                color: red;
+                cursor: pointer;
+            }
+            
+            .Mst_top4_right_rigth2:hover {
+                color: red;
+                cursor: pointer;
+            }
+            
+            .Mst_top4_right_rigth2 {
+                width: 50px;
+                height: 100%;
+                float: right;
+                padding-left: 3px;
+                font-size: 13px;
+            }
+            
+            .mainbox {
+                width: 100%;
+                height: 1900px;
+                padding-top: 15px;
+            }
+            
+            .mainbox .mst_mk>img {
+                display: block;
+                margin-top: 9px;
+                width: 200px;
+                background-color: #EEEEEE;
+                margin-left: 8px;
+            }
+            
+            .mainbox .mst_mk {
+                width: 16%;
+                height: 450px;
+                float: left;
+                margin-right: 9px;
+                margin-top: 5px;
+                transition: all 0.5s;
+                border: 1px solid white;
+            }
+            
+            .mainbox .mst_mk:hover {
+                transform: translateY(-2px);
+                box-shadow: 5px 5px 5px #cccc;
+                border: 1px solid #cccc;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom {
+                width: 100%;
+                height: 42%;
+                float: left;
+                /* s */
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom ul {
+                width: 100%;
+                height: 30px;
+                margin-top: 6px;
+                padding-left: 8px;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom ul li {
+                width: 30px;
+                height: 30px;
+                margin-right: 3px;
+                border: 1px solid #cccc;
+                float: left;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom ul li img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom ul li:hover {
+                border-color: red;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom .p1 {
+                font-size: 12px;
+                margin-top: 10px;
+                padding-right: 9px;
+                padding-left: 4px;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom strong {
+                font-size: 18px;
+                color: red;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom .p1 span {
+                display: block;
+                float: right;
+                font-size: 13px;
+                color: #555555;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom .p2 {
+                font-size: 12px;
+                margin-bottom: 5px;
+                margin-top: 10px;
+                padding-right: 9px;
+                padding-left: 4px;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom .p2 img {
+                width: 20px;
+                vertical-align: middle;
+                margin-left: 5px;
+            }
+            
+            .mainbox .mst_mk .mst_mk_btom .p2 span {
+                display: block;
+                float: right;
+                font-size: 13px;
+                color: #555555;
+            }
+            
+            .mst_biao {
+                width: 100%;
+                height: 24px;
+                font-size: 12px;
+                padding: 0 6px;
+            }
+            
+            .mst_biao div {
+                margin-top: 2px;
+                width: 40px;
+                height: 18px;
+                line-height: 18px;
+                float: left;
+                margin-right: 6px;
+                text-align: center;
+                background-color: red;
+                position: relative;
+                color: white;
+            }
+            
+            .mst_biao div .sp1 {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                position: absolute;
+                left: -4px;
+                top: 6px;
+                background-color: white;
+            }
+            
+            .mst_biao div .sp2 {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                position: absolute;
+                right: -4px;
+                top: 6px;
+                background-color: white;
+            }
+            
+            .mst_btns_main {
+                width: 100%;
+                height: 30px;
+                margin-top: 5px;
+                padding-left: 5px;
+            }
+            
+            .mst_btns_main div {
+                width: 60px;
+                height: 100%;
+                border: 1px solid #cccc;
+                float: left;
+                line-height: 30px;
+                font-size: 12px;
+                text-align: center;
+            }
+            
+            .mst_btns_main div input {
+                vertical-align: middle;
+            }
+            
+            .mst_btns_main div img {
+                width: 15px;
+            }
+            
+            .mst_btns_main .main1_lek {
+                width: 80px;
+                color: red;
+            }
+            
+            .mst_btns_main div:hover {
+                border: 1px dashed red;
+                color: red;
+            }
+            
+            .main1_leb {
+                color: red;
+            }
+            
+            .mainbox #MstS1 {
+                position: relative;
+                width: 16%;
+                height: 100%;
+                float: right;
+            }
+            
+            .mainbox #MstS1 input {
+                width: 25px;
+                height: 30px;
+                margin-bottom: 5px;
+                background-color: whitesmoke;
+                border: 1px solid #cccc;
+                font-size: 15px;
+                color: #8C8C8C;
+            }
+            
+            .mainbox #MstS1>div {
+                float: left;
+                width: 100%;
+                height: 90%;
+                border: 1px solid #cccc;
+                padding: 10px 10px;
+            }
+            
+            .mainbox #MstS1 p {
+                color: #555555;
+                font-size: 17px;
+            }
+            /* opacity: ; */
+            
+            .mainbox #MstS1>div>div {
+                width: 100%;
+                height: 264px;
+                margin-top: 10px;
+            }
+            
+            .mainbox #MstS1>div>div img {
+                width: 100%;
+                transition: all 0.6s;
+            }
+            
+            .mainbox #MstS1>div>div img:hover {
+                opacity: 0.6;
+            }
+            
+            .mainbox #MstS1>div>div b {
+                color: red;
+            }
+            
+            .mainbox #MstS1>div>div .nvp {
+                font-size: 12px;
+                margin-top: 5px;
+            }
+            
+            .mainbox #MstS1>div>div .nvp:hover {
+                color: #f42424;
+            }
+            
+            .mainbox #MstS1>div>div .nvp2 {
+                font-size: 12px;
+                color: #8C8C8C;
+                margin-top: 3px;
+            }
+            
+            .mst_bontyouy {
+                height: 400px;
+                width: 100%;
+                border-top: 1px dashed #cccc;
+                position: relative;
+            }
+            
+            .mst_bontyouy .mytext {
+                width: 180px;
+                height: 40px;
+                font-size: 25px;
+                line-height: 40px;
+                position: absolute;
+                left: 50%;
+                margin-left: -50px;
+                top: -25px;
+                z-index: 123px;
+                text-align: center;
+                color: #6F6F6F;
+                background-color: white;
+                margin-top: 0;
+            }
+            
+            .mst_bontyouy .mytext1 {
+                width: 182px;
+                height: 300px;
+                margin-right: 10px;
+                float: left;
+                margin-top: 40px;
+            }
+            
+            .mst_bontyouy .mytext1 img {
+                width: 100%;
+            }
+            
+            .mst_bontyouy .mytext1 h2 {
+                color: red;
+                font-size: 19px;
+                margin: 6px 0px;
+            }
+            
+            .mst_bontyouy .mytext1 p {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #333;
+                font-size: 13px;
+                margin-bottom: 10px;
+            }
+            
+            .mst_bontyouy .mytext1 p:hover {
+                color: red;
+                cursor: pointer;
+            }
+            
+            .mst_bontyouy .mytext1 span {
+                color: #8C8C9B;
+                font-size: 12px;
+                font-weight: 700;
+            }
+            
+            .putn {
+                width: 22px;
+            }

@@ -1,0 +1,51 @@
+{
+  "id": "2012025",
+  "name": "登录注册",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "669922",
+      "name": "name",
+      "font_class": "name",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "817224",
+      "name": "security",
+      "font_class": "scaqbz",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "2571206",
+      "name": "身份（shj-icon-identity）",
+      "font_class": "shenfenshj-icon-ident",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "6307565",
+      "name": "icon-qr_code",
+      "font_class": "icon-qr_code",
+      "unicode": "e881",
+      "unicode_decimal": 59521
+    },
+    {
+      "icon_id": "6727748",
+      "name": "password normal",
+      "font_class": "tuceng-copy",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9223385",
+      "name": "Minus sign",
+      "font_class": "Page-",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    }
+  ]
+}

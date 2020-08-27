@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*如果用黑点的话自行修改*/
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/*尾部*/
+
+.footer {
+    width: 100%;
+    height: 409px;
+}
+
+
+/*尾部的头部*/
+
+.footer-title {
+    width: 100%;
+    height: 80px;
+    background-color: #EEEEEE;
+}
+
+
+/*版心*/
+
+.ft-core {
+    width: 1200px;
+    height: 80px;
+    padding: 24px 0;
+    margin: 0 auto;
+}
+
+
+/*各种保障*/
+
+.service-list {
+    width: 900px;
+    height: 32px;
+    float: left;
+}
+
+.service-item {
+    width: 170px;
+    height: 32px;
+    line-height: 30px;
+    float: left;
+    padding-right: 10px;
+}
+
+.Seven {
+    width: 35px;
+    height: 32px;
+    float: left;
+}
+
+.Seven-text {
+    height: 32px;
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #888888;
+    line-height: 32px;
+}
+
+.service-item .truegoods {
+    background: url(公共图片/footer_new_icon.png) no-repeat -32px 0;
+}
+
+.service-item .goodcomment {
+    background: url(公共图片/footer_new_icon.png) no-repeat -66px 0;
+}
+
+.service-item .fast {
+    background: url(公共图片/footer_new_icon.png) no-repeat -100px 0;
+}
+
+.service-item .honor {
+    background: url(公共图片/footer_new_icon.png) no-repeat -134px 0;
+}
+
+
+/*客服*/
+
+.contact {
+    width: 300px;
+    height: 32px;
+    float: left;
+}
+
+
+/*电话*/
+
+.tel {
+    width: 180px;
+    height: 32px;
+    float: left;
+}
+
+.tel .tel-icon {
+    background: url(公共图片/footer_new_icon.png) no-repeat 4px -98px;
+}
+
+.tel-text {
+    height: 32px;
+    float: left;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+
+/*联系客服*/
+
+.customer-service {
+    width: 115px;
+    height: 32px;
+    float: left;
+}
+
+.customer-service .contact-icon {
+    background: url(公共图片/footer_new_icon.png) no-repeat 4px -133px;
+}
+
+
+/*主体*/
+
+.footer-main {
+    width: 100%;
+    height: 329px;
+    background-color: #262626;
+}
+
+
+/*主体的版心*/
+
+.fm-core {
+    width: 1200px;
+    height: 329px;
+    margin: 0 auto;
+}
+
+
+/*上面的部分*/
+
+.fm-top {
+    width: 100%;
+    height: 189px;
+    padding: 30px 0;
+    border-bottom: 1px solid #464646;
+}
+
+
+/*帮助列表*/
+
+.help-list {
+    width: 900px;
+    height: 128px;
+    float: left;
+}
+
+
+/*单个帮助元素*/
+
+.help-item {
+    width: 180px;
+    height: 128px;
+    padding-right: 10px;
+    float: left;
+}
+
+.help-item h3 {
+    color: white;
+}
+
+.help-item ul {
+    margin-top: 20px;
+}
+
+.hi-text {
+    width: 100%;
+    height: 28px;
+    font-size: 15px;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
+.hi-text:hover {
+    color: red;
+}
+
+
+/*二维码*/
+
+.qr-code {
+    width: 276px;
+    height: 128px;
+    float: left;
+}
+
+
+/*二维码的统一样式*/
+
+.qr-code1 {
+    width: 108px;
+    height: 128px;
+    background-color: #fff;
+    float: left;
+}
+
+
+/*第一个的特有样式*/
+
+.qc-first {
+    margin-right: 60px;
+}
+
+
+/*微信*/
+
+.qc-weixin,
+.qc-tip {
+    margin: 0 auto;
+}
+
+.qc-weixin {
+    width: 104px;
+    height: 104px;
+}
+
+.qc-weixin img {
+    width: 104px;
+    height: 104px;
+}
+
+.qc-tip {
+    width: 104px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+
+/*下面的部分*/
+
+.fm-bottom {
+    width: 100%;
+    height: 139px;
+    text-align: center;
+    padding: 30px 0 20px;
+}
+
+.copyright_links {
+    width: 100%;
+    height: 18px;
+    color: #888888;
+    margin-bottom: 10px;
+}
+
+.cl-text {
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.cl-text:hover {
+    color: red;
+}
+
+.verticalLine {
+    display: inline-block;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+}
